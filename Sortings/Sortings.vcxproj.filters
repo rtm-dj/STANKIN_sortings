@@ -34,6 +34,12 @@
     <ClCompile Include="test.cpp">
       <Filter>Исходные файлы\tests</Filter>
     </ClCompile>
+    <ClCompile Include="binary_insertion_sort.cpp">
+      <Filter>Исходные файлы\src</Filter>
+    </ClCompile>
+    <ClCompile Include="shaker_sort.cpp">
+      <Filter>Исходные файлы\src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="insertion_sort.h">
@@ -49,6 +55,12 @@
       <Filter>Исходные файлы\include</Filter>
     </ClInclude>
     <ClInclude Include="optimized_bubble_sort.h">
+      <Filter>Исходные файлы\include</Filter>
+    </ClInclude>
+    <ClInclude Include="binary_insertion_sort.h">
+      <Filter>Исходные файлы\include</Filter>
+    </ClInclude>
+    <ClInclude Include="shaker_sort.h">
       <Filter>Исходные файлы\include</Filter>
     </ClInclude>
   </ItemGroup>
