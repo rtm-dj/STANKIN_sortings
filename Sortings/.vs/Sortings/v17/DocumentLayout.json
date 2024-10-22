@@ -1,13 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\\u0421\u0422\u0410\u041D\u041A\u0418\u041D\\\u0422\u0435\u043E\u0440\u0438\u044F \u0441\u0438\u0441\u0442\u0435\u043C\\STANKIN_sortings\\Sortings\\",
+  "WorkspaceRootPath": "D:\\\u0421\u0422\u0410\u041D\u041A\u0418\u041D\\\u0421\u0442\u0440\u0443\u043A\u0442\u0443\u0440\u044B \u0438 \u0430\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u044B\\STANKIN_sortings\\Sortings\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2A206249-E56D-4D0C-B9B6-D20000F43823}|Sortings.vcxproj|D:\\\u0421\u0422\u0410\u041D\u041A\u0418\u041D\\\u0422\u0435\u043E\u0440\u0438\u044F \u0441\u0438\u0441\u0442\u0435\u043C\\STANKIN_sortings\\Sortings\\test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{2A206249-E56D-4D0C-B9B6-D20000F43823}|Sortings.vcxproj|D:\\\u0421\u0422\u0410\u041D\u041A\u0418\u041D\\\u0421\u0442\u0440\u0443\u043A\u0442\u0443\u0440\u044B \u0438 \u0430\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u044B\\STANKIN_sortings\\Sortings\\insertion_sort.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2A206249-E56D-4D0C-B9B6-D20000F43823}|Sortings.vcxproj|solutionrelative:insertion_sort.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A206249-E56D-4D0C-B9B6-D20000F43823}|Sortings.vcxproj|D:\\\u0421\u0422\u0410\u041D\u041A\u0418\u041D\\\u0421\u0442\u0440\u0443\u043A\u0442\u0443\u0440\u044B \u0438 \u0430\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u044B\\STANKIN_sortings\\Sortings\\insertion_sort.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2A206249-E56D-4D0C-B9B6-D20000F43823}|Sortings.vcxproj|solutionrelative:insertion_sort.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A206249-E56D-4D0C-B9B6-D20000F43823}|Sortings.vcxproj|D:\\\u0421\u0422\u0410\u041D\u041A\u0418\u041D\\\u0421\u0442\u0440\u0443\u043A\u0442\u0443\u0440\u044B \u0438 \u0430\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u044B\\STANKIN_sortings\\Sortings\\test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{2A206249-E56D-4D0C-B9B6-D20000F43823}|Sortings.vcxproj|solutionrelative:test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A206249-E56D-4D0C-B9B6-D20000F43823}|Sortings.vcxproj|D:\\\u0421\u0422\u0410\u041D\u041A\u0418\u041D\\\u0422\u0435\u043E\u0440\u0438\u044F \u0441\u0438\u0441\u0442\u0435\u043C\\STANKIN_sortings\\Sortings\\shaker_sort.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{2A206249-E56D-4D0C-B9B6-D20000F43823}|Sortings.vcxproj|D:\\\u0421\u0422\u0410\u041D\u041A\u0418\u041D\\\u0421\u0442\u0440\u0443\u043A\u0442\u0443\u0440\u044B \u0438 \u0430\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u044B\\STANKIN_sortings\\Sortings\\shaker_sort.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{2A206249-E56D-4D0C-B9B6-D20000F43823}|Sortings.vcxproj|solutionrelative:shaker_sort.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -27,23 +35,48 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "shaker_sort.cpp",
-              "DocumentMoniker": "D:\\\u0421\u0422\u0410\u041D\u041A\u0418\u041D\\\u0422\u0435\u043E\u0440\u0438\u044F \u0441\u0438\u0441\u0442\u0435\u043C\\STANKIN_sortings\\Sortings\\shaker_sort.cpp",
-              "RelativeDocumentMoniker": "shaker_sort.cpp",
-              "ToolTip": "D:\\\u0421\u0422\u0410\u041D\u041A\u0418\u041D\\\u0422\u0435\u043E\u0440\u0438\u044F \u0441\u0438\u0441\u0442\u0435\u043C\\STANKIN_sortings\\Sortings\\shaker_sort.cpp",
-              "RelativeToolTip": "shaker_sort.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAgAAAA",
+              "Title": "insertion_sort.cpp",
+              "DocumentMoniker": "D:\\\u0421\u0422\u0410\u041D\u041A\u0418\u041D\\\u0421\u0442\u0440\u0443\u043A\u0442\u0443\u0440\u044B \u0438 \u0430\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u044B\\STANKIN_sortings\\Sortings\\insertion_sort.cpp",
+              "RelativeDocumentMoniker": "insertion_sort.cpp",
+              "ToolTip": "D:\\\u0421\u0422\u0410\u041D\u041A\u0418\u041D\\\u0421\u0442\u0440\u0443\u043A\u0442\u0443\u0440\u044B \u0438 \u0430\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u044B\\STANKIN_sortings\\Sortings\\insertion_sort.cpp",
+              "RelativeToolTip": "insertion_sort.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-29T15:31:57.748Z",
+              "WhenOpened": "2024-10-04T17:49:07.533Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "insertion_sort.h",
+              "DocumentMoniker": "D:\\\u0421\u0422\u0410\u041D\u041A\u0418\u041D\\\u0421\u0442\u0440\u0443\u043A\u0442\u0443\u0440\u044B \u0438 \u0430\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u044B\\STANKIN_sortings\\Sortings\\insertion_sort.h",
+              "RelativeDocumentMoniker": "insertion_sort.h",
+              "ToolTip": "D:\\\u0421\u0422\u0410\u041D\u041A\u0418\u041D\\\u0421\u0442\u0440\u0443\u043A\u0442\u0443\u0440\u044B \u0438 \u0430\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u044B\\STANKIN_sortings\\Sortings\\insertion_sort.h",
+              "RelativeToolTip": "insertion_sort.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-04T17:48:28.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "shaker_sort.cpp",
+              "DocumentMoniker": "D:\\\u0421\u0422\u0410\u041D\u041A\u0418\u041D\\\u0421\u0442\u0440\u0443\u043A\u0442\u0443\u0440\u044B \u0438 \u0430\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u044B\\STANKIN_sortings\\Sortings\\shaker_sort.cpp",
+              "RelativeDocumentMoniker": "shaker_sort.cpp",
+              "ToolTip": "D:\\\u0421\u0422\u0410\u041D\u041A\u0418\u041D\\\u0421\u0442\u0440\u0443\u043A\u0442\u0443\u0440\u044B \u0438 \u0430\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u044B\\STANKIN_sortings\\Sortings\\shaker_sort.cpp",
+              "RelativeToolTip": "shaker_sort.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-29T15:31:57.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "test.cpp",
-              "DocumentMoniker": "D:\\\u0421\u0422\u0410\u041D\u041A\u0418\u041D\\\u0422\u0435\u043E\u0440\u0438\u044F \u0441\u0438\u0441\u0442\u0435\u043C\\STANKIN_sortings\\Sortings\\test.cpp",
+              "DocumentMoniker": "D:\\\u0421\u0422\u0410\u041D\u041A\u0418\u041D\\\u0421\u0442\u0440\u0443\u043A\u0442\u0443\u0440\u044B \u0438 \u0430\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u044B\\STANKIN_sortings\\Sortings\\test.cpp",
               "RelativeDocumentMoniker": "test.cpp",
-              "ToolTip": "D:\\\u0421\u0422\u0410\u041D\u041A\u0418\u041D\\\u0422\u0435\u043E\u0440\u0438\u044F \u0441\u0438\u0441\u0442\u0435\u043C\\STANKIN_sortings\\Sortings\\test.cpp",
+              "ToolTip": "D:\\\u0421\u0422\u0410\u041D\u041A\u0418\u041D\\\u0421\u0442\u0440\u0443\u043A\u0442\u0443\u0440\u044B \u0438 \u0430\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u044B\\STANKIN_sortings\\Sortings\\test.cpp",
               "RelativeToolTip": "test.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
