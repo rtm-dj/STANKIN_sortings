@@ -1,19 +1,4 @@
 ﻿  laba2.cpp
-D:\СТАНКИН\Структуры и алгоритмы\STANKIN_sortings\labi\laba2.cpp(134,5): error C2672: "getline": не найдена соответствующая перегруженная функция
-  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\string(82,32):
-  может быть "std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &)"
-  	D:\СТАНКИН\Структуры и алгоритмы\STANKIN_sortings\labi\laba2.cpp(134,5):
-  	"std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &)": ожидаются аргументы 2 — 3 предоставлены
-  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\string(75,32):
-  или       "std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)"
-  	D:\СТАНКИН\Структуры и алгоритмы\STANKIN_sortings\labi\laba2.cpp(134,5):
-  	'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)': не удалось вывести аргумент шаблон для 'std::basic_istream<_Elem,_Traits> &' из 'char **'
-  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\string(68,32):
-  или       "std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &&,std::basic_string<_Elem,_Traits,_Alloc> &)"
-  	D:\СТАНКИН\Структуры и алгоритмы\STANKIN_sortings\labi\laba2.cpp(134,5):
-  	"std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &&,std::basic_string<_Elem,_Traits,_Alloc> &)": ожидаются аргументы 2 — 3 предоставлены
-  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\string(25,32):
-  или       "std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &&,std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)"
-  	D:\СТАНКИН\Структуры и алгоритмы\STANKIN_sortings\labi\laba2.cpp(134,5):
-  	'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &&,std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)': не удалось вывести аргумент шаблон для 'std::basic_istream<_Elem,_Traits> &&' из 'char **'
-  
+  labi.vcxproj -> D:\СТАНКИН\Структуры и алгоритмы\STANKIN_sortings\Sortings\x64\Debug\labi.exe
+  "pwsh.exe" не является внутренней или внешней
+  командой, исполняемой программой или пакетным файлом.
