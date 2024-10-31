@@ -1,6 +1,13 @@
-﻿  shaker_sort.cpp
+﻿  binary_insertion_sort.cpp
+  bubble_sort.cpp
+  exchange_sort.cpp
+  insertion_sort.cpp
+  optimized_bubble_sort.cpp
+  selection_sort.cpp
+  shaker_sort.cpp
   test.cpp
   Создание кода...
-  Sortings.vcxproj -> D:\СТАНКИН\Теория систем\STANKIN_sortings\Sortings\x64\Debug\Sortings.exe
+  LINK : не найден или не выполнена сборка D:\СТАНКИН\Структуры и алгоритмы\STANKIN_sortings\Sortings\x64\Debug\Sortings.exe при последней инкрементной компоновке; выполняется полная компоновка
+  Sortings.vcxproj -> D:\СТАНКИН\Структуры и алгоритмы\STANKIN_sortings\Sortings\x64\Debug\Sortings.exe
   "pwsh.exe" не является внутренней или внешней
   командой, исполняемой программой или пакетным файлом.

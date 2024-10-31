@@ -2,3 +2,5 @@ D:\СТАНКИН\С files\Sortings\x64\Debug\gmock.dll
 D:\СТАНКИН\С files\Sortings\Sortings\x64\Debug\Sortings.vcxproj.Up2Date
 D:\СТАНКИН\Теория систем\STANKIN_sortings\Sortings\x64\Debug\gmock.dll
 D:\СТАНКИН\Теория систем\STANKIN_sortings\Sortings\Sortings\x64\Debug\Sortings.vcxproj.Up2Date
+D:\СТАНКИН\Структуры и алгоритмы\STANKIN_sortings\Sortings\x64\Debug\gmock.dll
+D:\СТАНКИН\Структуры и алгоритмы\STANKIN_sortings\Sortings\Sortings\x64\Debug\Sortings.vcxproj.Up2Date
