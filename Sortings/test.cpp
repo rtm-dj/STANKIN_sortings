@@ -21,8 +21,12 @@
 
 
 //семинар 4
-#include "shell_sort.h"
-#include "quick_sort.h"
+#include "merge_sort.h"
+//использовать как mergeSort(arr, 0, size - 1);
+#include "natural_merge_sort.h"
+//использовать как naturalMergeSort(arr, size);
+#include "merge_one_phase_sort.h"
+//использовать как mergeOnePhase(arr, size);
 
 
 
