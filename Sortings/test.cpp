@@ -7,9 +7,22 @@
 #include "bubble_sort.h"
 #include "optimized_bubble_sort.h"
 
+
 //семинар 2
 #include "binary_insertion_sort.h"
 #include "shaker_sort.h"
+
+
+//семинар 3
+#include "shell_sort.h"
+//использовать как shakerSort(arr, size);
+#include "quick_sort.h"
+//использовать как quickSort(arr, 0, size - 1);
+
+
+//семинар 4
+#include "shell_sort.h"
+#include "quick_sort.h"
 
 
 
