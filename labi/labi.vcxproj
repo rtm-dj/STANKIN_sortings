@@ -129,6 +129,8 @@
   <ItemGroup>
     <ClCompile Include="..\laboratory\laba1.cpp" />
     <ClCompile Include="laba2.cpp" />
+    <ClCompile Include="laba3.cpp" />
+    <ClCompile Include="laba4.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="output.txt" />

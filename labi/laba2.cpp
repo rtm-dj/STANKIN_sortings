@@ -2,97 +2,97 @@
 
 
 //пункт 1
- #include <stdlib.h>
- #include <stdio.h>
-#include <iostream>
-
-
-void processString(char*& str, int& length) {
-    int i = 0;
-    while (i < length) {
-        if (str[i] == '!') {
-
-            if ((i + 1 < length) && ((str[i + 1] >= 'A' && str[i + 1] <= 'Z') || (str[i + 1] >= 'a' && str[i + 1] <= 'z'))) {
-
-                str = (char*)realloc(str, (length + 3) * sizeof(char));
-
-                for (int j = length; j > i; --j) {
-                    str[j + 2] = str[j];
-                }
-
-                str[i + 1] = '?';
-                str[i + 2] = '?';
-                length += 2;
-                i += 3;
-            }
-            else {
-                str[i] = ' ';
-                i++;
-            }
-        }
-        else {
-            i++;
-        }
-    }
-}
-
-int calculateLength(char str[]) {
-    int length = 0;
-    while (str[length] != '\0') {
-        length++;
-    }
-    return length;
-}
-
-
-int main() {
-    char* str = NULL;
-    char c;
-    int len = 0;
-
-    while (1) {
-        printf("Input char (stop with .) ");
-        c = getchar();
-
-        if (c == '.') {
-            char* new_str = (char*)malloc((len + 1) * sizeof(char));
-            if (str != NULL) {
-                for (int i = 0; i < len; i++) {
-                    new_str[i] = str[i];
-                }
-                free(str);
-            }
-
-            new_str[len] = '\0';
-            str = new_str;
-            break;
-        }
-
-
-        char* new_str = (char*)malloc((len + 1) * sizeof(char));
-        if (str != NULL) {
-            for (int i = 0; i < len; i++) {
-                new_str[i] = str[i];
-            }
-            free(str);
-        }
-
-        new_str[len] = c;
-        str = new_str;
-        len++;
-        getchar();
-    }
-    printf("inputed string: '%s'\n", str);
-
-    int length = calculateLength(str);
-
-    processString(str, length);
-    printf("processed string: '%s'\n", str);
-
-
-    free(str);
-    return 0;
-}
+// #include <stdlib.h>
+// #include <stdio.h>
+//#include <iostream>
+//
+//
+//void processString(char*& str, int& length) {
+//    int i = 0;
+//    while (i < length) {
+//        if (str[i] == '!') {
+//
+//            if ((i + 1 < length) && ((str[i + 1] >= 'A' && str[i + 1] <= 'Z') || (str[i + 1] >= 'a' && str[i + 1] <= 'z'))) {
+//
+//                str = (char*)realloc(str, (length + 3) * sizeof(char));
+//
+//                for (int j = length; j > i; --j) {
+//                    str[j + 2] = str[j];
+//                }
+//
+//                str[i + 1] = '?';
+//                str[i + 2] = '?';
+//                length += 2;
+//                i += 3;
+//            }
+//            else {
+//                str[i] = ' ';
+//                i++;
+//            }
+//        }
+//        else {
+//            i++;
+//        }
+//    }
+//}
+//
+//int calculateLength(char str[]) {
+//    int length = 0;
+//    while (str[length] != '\0') {
+//        length++;
+//    }
+//    return length;
+//}
+//
+//
+//int main() {
+//    char* str = NULL;
+//    char c;
+//    int len = 0;
+//
+//    while (1) {
+//        printf("Input char (stop with .) ");
+//        c = getchar();
+//
+//        if (c == '.') {
+//            char* new_str = (char*)malloc((len + 1) * sizeof(char));
+//            if (str != NULL) {
+//                for (int i = 0; i < len; i++) {
+//                    new_str[i] = str[i];
+//                }
+//                free(str);
+//            }
+//
+//            new_str[len] = '\0';
+//            str = new_str;
+//            break;
+//        }
+//
+//
+//        char* new_str = (char*)malloc((len + 1) * sizeof(char));
+//        if (str != NULL) {
+//            for (int i = 0; i < len; i++) {
+//                new_str[i] = str[i];
+//            }
+//            free(str);
+//        }
+//
+//        new_str[len] = c;
+//        str = new_str;
+//        len++;
+//        getchar();
+//    }
+//    printf("inputed string: '%s'\n", str);
+//
+//    int length = calculateLength(str);
+//
+//    processString(str, length);
+//    printf("processed string: '%s'\n", str);
+//
+//
+//    free(str);
+//    return 0;
+//}
 
 //пункт 2
 //#include <stdlib.h>

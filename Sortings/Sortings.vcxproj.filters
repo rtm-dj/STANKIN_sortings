@@ -40,6 +40,21 @@
     <ClCompile Include="shaker_sort.cpp">
       <Filter>Исходные файлы\src</Filter>
     </ClCompile>
+    <ClCompile Include="shell_sort.cpp">
+      <Filter>Исходные файлы\src</Filter>
+    </ClCompile>
+    <ClCompile Include="quick_sort.cpp">
+      <Filter>Исходные файлы\src</Filter>
+    </ClCompile>
+    <ClCompile Include="merge_sort.cpp">
+      <Filter>Исходные файлы\src</Filter>
+    </ClCompile>
+    <ClCompile Include="merge_one_phase_sort.cpp">
+      <Filter>Исходные файлы\src</Filter>
+    </ClCompile>
+    <ClCompile Include="natural_merge_sort.cpp">
+      <Filter>Исходные файлы\src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="insertion_sort.h">
@@ -61,6 +76,21 @@
       <Filter>Исходные файлы\include</Filter>
     </ClInclude>
     <ClInclude Include="shaker_sort.h">
+      <Filter>Исходные файлы\include</Filter>
+    </ClInclude>
+    <ClInclude Include="quick_sort.h">
+      <Filter>Исходные файлы\include</Filter>
+    </ClInclude>
+    <ClInclude Include="shell_sort.h">
+      <Filter>Исходные файлы\include</Filter>
+    </ClInclude>
+    <ClInclude Include="merge_sort.h">
+      <Filter>Исходные файлы\include</Filter>
+    </ClInclude>
+    <ClInclude Include="merge_one_phase_sort.h">
+      <Filter>Исходные файлы\include</Filter>
+    </ClInclude>
+    <ClInclude Include="natural_merge_sort.h">
       <Filter>Исходные файлы\include</Filter>
     </ClInclude>
   </ItemGroup>
