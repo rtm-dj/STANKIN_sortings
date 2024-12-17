@@ -1,0 +1,23 @@
+﻿  binary_insertion_sort.cpp
+  bubble_sort.cpp
+  exchange_sort.cpp
+  insertion_sort.cpp
+  merge_one_phase_sort.cpp
+D:\СТАНКИН\Структуры данных\STANKIN_sortings\Sortings\merge_one_phase_sort.cpp(8,28): error C2039: "min": не является членом "std".
+D:\СТАНКИН\Структуры данных\STANKIN_sortings\Sortings\predefined C++ types (compiler internal)(343,11): message : см. объявление "std"
+D:\СТАНКИН\Структуры данных\STANKIN_sortings\Sortings\merge_one_phase_sort.cpp(9,30): error C2039: "min": не является членом "std".
+D:\СТАНКИН\Структуры данных\STANKIN_sortings\Sortings\predefined C++ types (compiler internal)(343,11): message : см. объявление "std"
+  merge_sort.cpp
+  natural_merge_sort.cpp
+  optimized_bubble_sort.cpp
+  quick_sort.cpp
+D:\СТАНКИН\Структуры данных\STANKIN_sortings\Sortings\quick_sort.cpp(9,18): error C2039: "swap": не является членом "std".
+D:\СТАНКИН\Структуры данных\STANKIN_sortings\Sortings\predefined C++ types (compiler internal)(343,11): message : см. объявление "std"
+D:\СТАНКИН\Структуры данных\STANKIN_sortings\Sortings\quick_sort.cpp(12,10): error C2039: "swap": не является членом "std".
+D:\СТАНКИН\Структуры данных\STANKIN_sortings\Sortings\predefined C++ types (compiler internal)(343,11): message : см. объявление "std"
+  selection_sort.cpp
+  shaker_sort.cpp
+  shell_sort.cpp
+  test.cpp
+D:\СТАНКИН\Структуры данных\STANKIN_sortings\Sortings\test.cpp(1,10): fatal  error C1083: Не удается открыть файл включение: gtest/gtest.h: No such file or directory,
+  Создание кода...
