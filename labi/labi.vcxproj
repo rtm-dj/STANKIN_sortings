@@ -104,10 +104,12 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\artem\vcpkg\packages;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Users\artem\vcpkg\packages;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -131,6 +133,7 @@
     <ClCompile Include="laba2.cpp" />
     <ClCompile Include="laba3.cpp" />
     <ClCompile Include="laba4.cpp" />
+    <ClCompile Include="laba5.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="output.txt" />

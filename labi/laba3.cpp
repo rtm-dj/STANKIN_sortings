@@ -104,6 +104,23 @@ public:
         --list_size;
     }
 
+    T& operator[](size_t index) {
+        if (index >= list_size) {
+            throw std::out_of_range("Index out of range");
+        }
+        Element<T>* current = head;
+        for (size_t i = 0; i < index; ++i) {
+            current = current->next;
+        }
+        return current->data;
+    }
+
+    void clear() {
+        while (!empty()) {
+            pop_front();
+        }
+    }
+
     void remove(const T& value) {
         while (head && head->data == value) {
             pop_front();
@@ -181,6 +198,23 @@ public:
         while (!empty()) {
             pop_front();
         }
+    }
+
+    void clear() {
+        while (!empty()) {
+            pop_front();
+        }
+    }
+
+    T& operator[](size_t index) {
+        if (index >= list_size) {
+            throw std::out_of_range("Index out of range");
+        }
+        Element<T>* current = head;
+        for (size_t i = 0; i < index; ++i) {
+            current = current->next;
+        }
+        return current->data;
     }
 
     void push_front(const T& value) {
@@ -336,7 +370,7 @@ public:
     Iterator end() { return Iterator(nullptr); }
 };
 
-void processString(char str[], int& length) {
+inline void processString(char str[], int& length) {
     int i = 0;
     while (i < length) {
         if (str[i] == '!') {
@@ -362,36 +396,36 @@ void processString(char str[], int& length) {
     }
 }
 
-int main() {
-
-    OneList<std::string> one_list;
-    DoubleList<std::string> double_list;
-
-    std::cout << "Enter a string: ";
-    char input[100];
-    std::cin.getline(input, 100);
-
-    int length = std::strlen(input);
-    processString(input, length);
-
-    for (int i = 0; i < length; ++i) {
-        one_list.push_back(std::string(1, input[i]));
-        double_list.push_back(std::string(1, input[i]));
-    }
-
-    std::cout << "Processed string: " << input << "\n";
-
-    std::cout << "OneList contents: ";
-    for (auto it = one_list.begin(); it != one_list.end(); ++it) {
-        std::cout << *it;
-    }
-    std::cout << "\n";
-
-    std::cout << "DoubleList contents: ";
-    for (auto it = double_list.begin(); it != double_list.end(); ++it) {
-        std::cout << *it;
-    }
-    std::cout << "\n";
-
-    return 0;
-}
+//int main() {
+//
+//    OneList<std::string> one_list;
+//    DoubleList<std::string> double_list;
+//
+//    std::cout << "Enter a string: ";
+//    char input[100];
+//    std::cin.getline(input, 100);
+//
+//    int length = std::strlen(input);
+//    processString(input, length);
+//
+//    for (int i = 0; i < length; ++i) {
+//        one_list.push_back(std::string(1, input[i]));
+//        double_list.push_back(std::string(1, input[i]));
+//    }
+//
+//    std::cout << "Processed string: " << input << "\n";
+//
+//    std::cout << "OneList contents: ";
+//    for (auto it = one_list.begin(); it != one_list.end(); ++it) {
+//        std::cout << *it;
+//    }
+//    std::cout << "\n";
+//
+//    std::cout << "DoubleList contents: ";
+//    for (auto it = double_list.begin(); it != double_list.end(); ++it) {
+//        std::cout << *it;
+//    }
+//    std::cout << "\n";
+//
+//    return 0;
+//}
