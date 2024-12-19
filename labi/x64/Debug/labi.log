@@ -1,4 +1,7 @@
-﻿  laba5.cpp
-  labi.vcxproj -> D:\СТАНКИН\Структуры данных\STANKIN_sortings\Sortings\x64\Debug\labi.exe
-  "pwsh.exe" не является внутренней или внешней
-  командой, исполняемой программой или пакетным файлом.
+﻿  laba1.cpp
+  laba5.cpp
+D:\СТАНКИН\Структуры данных\STANKIN_sortings\labi\laba5.cpp(275,17): error C2440: =: невозможно преобразовать "void *" в "int *"
+D:\СТАНКИН\Структуры данных\STANKIN_sortings\labi\laba5.cpp(275,17): message : Для преобразования "void*" к указателю на тип, не являющемуся "void", требуется явное приведение
+D:\СТАНКИН\Структуры данных\STANKIN_sortings\labi\laba5.cpp(276,18): error C2440: =: невозможно преобразовать "void *" в "int *"
+D:\СТАНКИН\Структуры данных\STANKIN_sortings\labi\laba5.cpp(276,18): message : Для преобразования "void*" к указателю на тип, не являющемуся "void", требуется явное приведение
+  Создание кода...
